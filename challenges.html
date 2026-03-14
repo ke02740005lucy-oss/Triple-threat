@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Challenges | Youth Challenges Awareness</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Youth Challenges Awareness</h1>
+    <p class="presented">Presented by Lucy</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="challenges.html">Challenges</a>
+    <a href="solution.html">Solutions</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="challenge-intro">
+    <h2>Challenges Facing Young People</h2>
+    <p>
+        Young people today face many problems that affect their growth, education,
+        and future opportunities. Below are three major challenges affecting youth today.
+    </p>
+</section>
+
+<section class="challenge-container">
+
+    <div class="challenge-card">
+        <h3>Unemployment</h3>
+        <p>Many young people struggle to find jobs after finishing school.</p>
+        <button onclick="toggleChallenge('jobMore')">Learn More</button>
+
+        <p id="jobMore" class="more-info">
+            Youth unemployment can lead to poverty, frustration, and lack of
+            opportunities for growth. Many young people lack skills or access
+            to job opportunities.
+        </p>
+    </div>
+
+    <div class="challenge-card">
+        <h3>Drug & Substance Abuse</h3>
+        <p>Drug abuse is becoming a serious problem among young people.</p>
+        <button onclick="toggleChallenge('drugMore')">Learn More</button>
+
+        <p id="drugMore" class="more-info">
+            Drugs can damage physical and mental health. Peer pressure,
+            stress, and curiosity often lead young people to substance abuse.
+        </p>
+    </div>
+
+    <div class="challenge-card">
+        <h3>Mental Health Problems</h3>
+        <p>Many youths experience stress, depression, and anxiety.</p>
+        <button onclick="toggleChallenge('mentalMore')">Learn More</button>
+
+        <p id="mentalMore" class="more-info">
+            Mental health challenges can affect relationships, education,
+            and daily life. Young people need support and awareness
+            to manage their mental wellbeing.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Youth Challenges Awareness</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

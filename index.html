@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youth Challenges Awareness</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Youth Challenges Awareness</h1>
+    <p class="presented">Presented by Lucy</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Challenges</a>
+    <a href="#">Solutions</a>
+    <a href="#">Resources</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="intro">
+    <h2>Welcome</h2>
+    <p>
+        Young people today face many serious challenges that affect their future.
+        This website explains three major problems affecting youth today:
+        unemployment, drug and substance abuse, and mental health issues.
+        Our goal is to create awareness and encourage solutions.
+    </p>
+</section>
+
+<section class="challenges">
+
+    <div class="card">
+        <h3>Unemployment</h3>
+        <p id="jobText">Many young people struggle to find jobs after finishing school.</p>
+        <button onclick="toggleInfo('jobText')">Learn More</button>
+    </div>
+
+    <div class="card">
+        <h3>Drug & Substance Abuse</h3>
+        <p id="drugText">Drug abuse is a growing problem affecting youth health and future.</p>
+        <button onclick="toggleInfo('drugText')">Learn More</button>
+    </div>
+
+    <div class="card">
+        <h3>Mental Health</h3>
+        <p id="mentalText">Stress, depression and anxiety are affecting many young people today.</p>
+        <button onclick="toggleInfo('mentalText')">Learn More</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Youth Challenges Awareness</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
